@@ -1,15 +1,15 @@
-import Asset1 from '../assets/asset1.png';
-import Asset2 from '../assets/asset2.png';
-import Asset3 from '../assets/asset3.png';
-import Asset4 from '../assets/asset4.png';
+import Gambar1 from '../assets/asset1.png';
+import Gambar2 from '../assets/asset2.png';
+import Gambar3 from '../assets/asset3.png';
+import Gambar4 from '../assets/asset4.png';
 import ImageCard from './ImageCard';
 const LandingImages = () =>{
     return (
         <div className="flex flex-row gap-8 py-12">
-            <ImageCard image={Asset1}/>
-            <ImageCard image={Asset2}/>
-            <ImageCard image={Asset3}/>
-            <ImageCard image={Asset4}/>
+            <ImageCard image={Gambar1}/>
+            <ImageCard image={Gambar2}/>
+            <ImageCard image={Gambar3}/>
+            <ImageCard image={Gambar4}/>
         </div>
     );
 };

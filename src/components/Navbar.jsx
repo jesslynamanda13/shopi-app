@@ -1,5 +1,4 @@
 import React from 'react';
-import mainLogo from'../assets/_Shopi.png';
 import IconSearch from './SearchIcon';
 
 const Navbar = () => {
@@ -13,14 +12,13 @@ const Navbar = () => {
                   <IconSearch />
               </span>
               <input class="bg-green-950 h-12 pl-12 w-64 rounded-xl text-base focus:outline-none border border-green-400 border-spacing-2 custom-input"
-                type="search" name="search" placeholder="Search products..."/>
+                type="search" name="search" placeholder="Search"/>
           </div>
-            <a className="text-lg text-gray-500">About</a>
-            <a className="text-lg text-gray-500">Contact Us</a>
+            <a href="/about" className="text-lg text-gray-500">About</a>
+            <a href="#" className="text-lg text-gray-500">Contact Us</a>
         </div>
         
       </div>
-
     </nav>
   );
 };
